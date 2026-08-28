@@ -81,7 +81,7 @@ class Cuadrado {
     esSuperior = superior;
     
     int hueco = 150;
-    int altoMinimo = 50;
+    int altoMinimo = 200;
     
     if (esSuperior) {
       alto = (int)random(altoMinimo, height - hueco - altoMinimo);
